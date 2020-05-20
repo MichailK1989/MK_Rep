@@ -19,14 +19,14 @@
 /* Resume */
 
 #resume-section {
-  background: url(/images/resume.jpg) no-repeat center center fixed;
+  background: url(/images/Resume.jpg) no-repeat center center fixed;
   background-size: cover;
   min-height: 600px;
   }
 
 @media only screen and (max-width: 750px) {
   #resume-section {
-    background: url(/images/resume.jpg) no-repeat center center fixed;
+    background: url(/images/Resume.jpg) no-repeat center center fixed;
     background-size: cover;
     min-height: 850px;
     }
@@ -109,6 +109,19 @@
   .upwork-cards {
     flex-direction: column;
     }
+}
+
+/* Carousel Responsiveness */
+@media only screen and (min-width: 800px) {
+  .carousel-item {
+    width: 50rem
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .carousel-item {
+    width: 100%;
+  }
 }
 
 /* Footer */
