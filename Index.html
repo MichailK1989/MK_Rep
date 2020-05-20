@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Theme</title>
+    
+    </head>
+
+    <!-- NavBar -->
+    <body data-spy="scroll" data-target="#main-nav" id="home">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+            <div class="container" id="navContainer">
+                <img src="images/NavarBarLogo.JPG" alt="" id="logo-image" class="img-fluid">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#resume-section" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education-section" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience-section" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tableau-section" class="nav-link">Tableau</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Resume -->
+        <section id="resume-section">
+            <div class="dark-overlay">
+                <div class="d-flex resume-text container">
+                    <div class="row">
+                        <div class="col text-center py-5">
+                            <h1 class="display-4 dark-white-text-head">Resume</h1>
+                            <p class="lead dark-white-text">Following the completion of my MEng in Civil Engineering and MSc in Operations and Logistics Management, I joined Tesco as an Insight Analyst in October 2015. Since then I have enjoyed a rapid increase in responsibility, gaining two promotions during a very challenging period for the Business. My success was mainly founded on delivering numerous high profile Tableau dashboards, providing training and consultation as well as delivering the first international dashboard integrating the Teradata and Hadoop ecosystems.</p>
+                            <div class="d-flex justify-content-center align-self-flex-end float-right">
+                                <div class="mr-2 hilight-text-download">
+                                    Download CV PDF
+                                </div>
+                                <a href="/files/Michail Karnas CV.pdf" download><i class="fas fa-file-pdf fa-3x hilight-icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education-section" class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center py-5">
+                            <h1 class="display-4 white-dark-text-head">Education</h1>
+                        </div>
+
+                        <ul style="list-style-type:none;">
+                            <!-- University of Surrey -->
+                            <li>
+                                <div class="d-flex container align-items-end">
+                                    <div class="d-flex flex-column align-items-start container">
+                                        <h2 class="display-4 col-md-12 head-2-edu-tab text-left">University of Surrey, MSc Operations and Logistics Management</h2>
+                                        <h3 class="col-md-12 text-left period-text ">2014 – 2015</h3>
+                                        <div class="d-flex justify-content-center">
+                                            <div class="mx-3 align-self-end hilight-text">
+                                                Programme Director Comments
+                                            </div>
+                                            <i class="fas fa-file-pdf fa-3x hilight-icon" data-toggle="modal" data-target="#myModal"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="images/surrey-removebg-preview.jpg" alt="" class="img-fluid mb-3" id="Surrey-Pic">
+                                    </div>
+                                </div>
+                                
+                                <ul style="list-style-type:none;">
+                                    <!-- University of Surrey - bullet 1 -->
+                                    <li>
+                                        <div class="d-flex">
+                                            <div class="p-4 align-self-center">
+                                                <i class="fas fa-square fa-2x"></i>
+                                            </div>
+                                            <div class="p-4 align-self-end white-dark-text">
+                                                The course focused on several aspects of supply chain management and helped me grow both an in-depth understanding of how businesses operate and comprehend the immerse value business intelligence can deliver.
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+                                    <!-- University of Surrey - bullet 2 -->
+                                    <li>
+                                        <div class="d-flex mb-5">
+                                            <div class="p-4 align-self-center">
+                                                <i class="fas fa-square fa-2x"></i>
+                                            </div>
+                                            <div class="p-4 align-self-end white-dark-text">
+                                                    Graduated first of the class with high distinction and was offered a PhD sponsorship on business analytics.
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            <!-- NTUA -->
+                            <li>
+                                <div class="d-flex container align-items-end">
+                                    <div class="d-flex flex-column align-items-start container">
+                                        <h2 class="display-4 col-md-12 head-2-edu-tab text-left">National Technical University of Athens, MEng in Civil Engineering</h2>
+                                        <h3 class="col-md-12 text-left period-text ">2007 – 2013</h3>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="images/NTUA-removebg-preview.jpg" alt="" class="img-fluid mb-3" id="NTUA-Pic">
+                                    </div>
+                                </div>
+                                
+                                <ul style="list-style-type:none;">
+                                    <!-- NTUA - bullet 1-->
+                                    <li>
+                                        <div class="d-flex">
+                                            <div class="p-4 align-self-center">
+                                                <i class="fas fa-square fa-2x"></i>
+                                            </div>
+                                            <div class="p-4 align-self-end white-dark-text">
+                                            The engineering degree was a 5-year course, incorporating 64 modules. The modules required a high level of reasoning and strong problem solving setting the foundation of my analytical capabilities. 
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <!-- NTUA - bullet 2-->
+                                    <li>
+                                        <div class="d-flex">
+                                            <div class="p-4 align-self-center">
+                                                <i class="fas fa-square fa-2x"></i>
+                                            </div>
+                                            <div class="p-4 align-self-end white-dark-text">
+                                                In the final year of the course I collaborated with the national observatory of Athens to evaluate the feasibility of installing vertical axis wind turbines in an urban region of Athens. The presented dissertation was undertaken as a business case with potential real world application and was rated with a perfect “10” by a three member committee.
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul> 
+                    </div>
+                </div>
+        </section>
+
+        <!-- Modal Programme Director-->
+        <div class="modal" id="myModal">
+            <embed src="/files/Programme Director MSc.pdf" width="1000" height="1200" type="application/pdf">
+        </div>
+
+        <!-- Experience -->
+        <section id="experience-section" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center py-5">
+                        <h1 class="display-4 white-dark-text-head">Professional Experience</h1>
+                    </div> 
+
+                    <ul style="list-style-type:none;">
+                        <!-- Senior Analytics Manager -->
+                        <li>
+                            <div class="container flex-column">
+                                <h2 class="display-4 align-self-center head-2-exp">Senior Analytics Manager – International Reporting, Web Apps  & Visualizations @ Tesco PLC</h2>
+                                <h3 class="align-self-center period-text">2020 – Current</h3>
+                            </div>
+    
+                            <ul style="list-style-type:none;">
+                                <!-- Senior Analytics Manager - bullet 1-->
+                                <li>
+                                    <div class="d-flex">
+                                        <div class="p-4 align-self-center">
+                                            <i class="fas fa-square fa-2x"></i>
+                                        </div>
+                                        <div class="p-4 align-self-end white-dark-text">
+                                            Leading a team of analysts to tackle some of the most complex data challenges such as big data platform integration between Teradata, SQL Server and Hadoop Ecosystems.
+                                        </div>
+                                    </div>
+                                </li>
+
+        
+                                <!-- Senior Analytics Manager - bullet 2-->
+                                <li>
+                                    <div class="d-flex">
+                                        <div class="p-4 align-self-center">
+                                            <i class="fas fa-square fa-2x"></i>
+                                        </div>
+                                        <div class="p-4 align-self-end white-dark-text">
+                                            Develop and consult on advanced visualisation solutions aiming for the perfect balance between performance and level of detail that satisfies user needs.
+                                        </div>
+                                    </div>
+                                </li>
+
+                                
+                                <!-- Senior Analytics Manager - bullet 3-->
+                                <li>
+                                    <div class="d-flex mb-5">
+                                        <div class="p-4 align-self-center">
+                                            <i class="fas fa-square fa-2x"></i>
+                                        </div>
+                                        <div class="p-4 align-self-end white-dark-text">
+                                            Manage the development of several critical web applications, used for operations reporting & intervention.
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <!-- Senior insight Analyst -->
+                        <li>
+                            <div class="container flex-column">
+                                <h2 class="display-4 align-self-center head-2-exp">Senior Insight Analyst - Availability @ Tesco PLC</h2>
+                                <h3 class="align-self-center period-text">2017 – 2020</h3>
+                            </div>
+                            
+                            <ul style="list-style-type:none;">
+                                 <!-- Senior insight Analyst - bullet 1-->
+                                 <li>
+                                    <div class="d-flex">
+                                        <div class="p-4">
+                                            <i class="fas fa-square fa-2x"></i>
+                                        </div>
+                                        <div class="p-4 align-self-end white-dark-text">
+                                            Lead insight projects which shape how Tesco measures, monitors and reports availability across UK and Ireland.
+                                        </div>
+                                        <button class="btn d-block mb-4 align-self-center"
+                                        data-toggle="collapse" data-target="#collapse-btn-1">Read More</button>
+                                    </div>
+                                 </li>
+                                
+        
+                                <!-- Senior insight Analyst - bullet 1 dropdown-->
+                                <div class="collapse" id="collapse-btn-1">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            
+                                            <ul style="list-style-type:none;">
+                                                <!-- Senior insight Analyst - bullet 1 dropdown - bullet 1-->
+
+                                                <li>
+                                                    <div class="d-flex">
+                                                        <div class="p-3 ml-5 align-self-center">
+                                                            <i class="fas fa-chevron-right fa-2x"></i>
+                                                        </div>
+                                                        <div class="p-3 align-self-end white-dark-text">
+                                                            Define the most important products for our customers, enabling end-to-end focus encompassing suppliers, distribution and store operations.
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                            
+                                                <!-- Senior insight Analyst - bullet 1 dropdown - bullet 2-->
+                                                <li>
+                                                    <div class="d-flex">
+                                                        <div class="p-3 ml-5 align-self-center">
+                                                            <i class="fas fa-chevron-right fa-2x"></i>
+                                                        </div>
+                                                        <div class="p-3 align-self-end white-dark-text">
+                                                            Set availability targets for stores, groups and Company, report and review performance against the targets and highlight the underlying drivers of availability.
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <!-- Senior insight Analyst - bullet 2-->
+                                <li>
+                                    <div class="d-flex">
+                                        <div class="p-4 align-self-center">
+                                            <i class="fas fa-square fa-2x"></i>
+                                        </div>
+                                        <div class="p-4 align-self-end white-dark-text">
+                                            Lead the international KPI alignment coordinating the Insight and Technology functions.
+                                        </div>
+                                    </div>
+                                </li>
+
+        
+                                <!-- Senior insight Analyst - bullet 3-->
+                                <li>
+                                    <div class="d-flex">
+                                        <div class="p-4 align-self-center">
+                                            <i class="fas fa-square fa-2x"></i>
+                                        </div>
+                                        <div class="p-4 align-self-end white-dark-text">
+                                            Agile delivery of interactive dashboards, work with supply chain operation leads to gather requirements and develop dashboards which simplify and support operations.
+                                        </div>
+                                        <button class="btn d-block mb-4 align-self-center"
+                                        data-toggle="collapse" data-target="#collapse-btn-2">Read More</button>
+                                    </div>
+                                </li>
+        
+                                <!-- Senior insight Analyst - bullet 3 dropdown-->
+                                <li>
+                                    <div class="collapse" id="collapse-btn-2">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                
+                                                <ul style="list-style-type:none;">
+
+                                                    <!-- Senior insight Analyst - bullet 3 dropdown - bullet 1-->
+                                                    <li>
+                                                        <div class="d-flex">
+                                                            <div class="p-3 ml-5 align-self-center">
+                                                                <i class="fas fa-chevron-right fa-2x"></i>
+                                                            </div>
+                                                            <div class="p-3 align-self-end white-dark-text">
+                                                                Developed the most viewed Tableau dashboard within Tesco (Over 100,000 user views).
+                                                            </div>
+                                                        </div>
+                                                    </li>
+    
+                
+                                                    <!-- Senior insight Analyst - bullet 3 dropdown - bullet 2-->
+                                                    <li>
+                                                        <div class="d-flex">
+                                                            <div class="p-3 ml-5 align-self-center">
+                                                                <i class="fas fa-chevron-right fa-2x"></i>
+                                                            </div>
+                                                            <div class="p-3 align-self-end white-dark-text">
+                                                                Act as subject expert mentoring the insight team on dashboard best practices and effective visualisations.
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                
+                                                    <!-- Senior insight Analyst - bullet 3 dropdown - bullet 3-->
+                                                    <li>
+                                                        <div class="d-flex">
+                                                            <div class="p-3 ml-5 align-self-center">
+                                                                <i class="fas fa-chevron-right fa-2x"></i>
+                                                            </div>
+                                                            <div class="p-3 align-self-end white-dark-text">
+                                                                Developed the visualisations behind an IGD award finalist project.
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Senior insight Analyst - bullet 4-->
+                                <li>
+                                    <div class="d-flex mb-5">
+                                        <div class="p-4 align-self-center">
+                                            <i class="fas fa-square fa-2x"></i>
+                                        </div>
+                                        <div class="p-4 align-self-end white-dark-text">
+                                            Manage work and development of one direct report.
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                         
+                        <li>
+                             <!-- Insight Analyst -->
+                            <div class="container flex-column">
+                                <h2 class="display-4 align-self-center head-2-exp">Insight Analyst - Availability @ Tesco PLC</h2>
+                                <h3 class="align-self-center period-text">2015 – 2017</h3>
+                            </div>
+
+                            <ul style="list-style-type:none;">
+                                <li>
+                                    <!-- Insight Analyst - bullet 1-->
+                                    <div class="d-flex">
+                                        <div class="p-4 align-self-center">
+                                            <i class="fas fa-square fa-2x"></i>
+                                        </div>
+                                        <div class="p-4 align-self-end white-dark-text">
+                                            Work alongside the lead data scientist, developing automated tools to support decision making.
+                                        </div>
+                                        <button class="btn d-block mb-4 align-self-center"
+                                        data-toggle="collapse" data-target="#collapse-btn-3">Read More</button>
+                                    </div>
+
+                                    <!-- Insight Analyst - bullet 1 dropdown-->
+                                    <div class="collapse" id="collapse-btn-3">
+                                        <div class="card">
+                                            <div class="card-body">
+
+                                                <ul style="list-style-type:none;">
+                                                <!-- Insight Analyst - bullet 1 dropdown - bullet 1-->
+                                                    <li>
+                                                        <div class="d-flex">
+                                                            <div class="p-3 align-self-center">
+                                                                <i class="fas fa-chevron-right fa-2x"></i>
+                                                            </div>
+                                                            <div class="p-3 align-self-end white-dark-text">
+                                                                Liaising with operation teams to design tailor made dashboard solutions, supporting the daily root cause of availability challenges.
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <!-- Insight Analyst - bullet 1 dropdown - bullet 2-->
+                                                    <li>
+                                                        <div class="d-flex">
+                                                            <div class="p-3 align-self-center">
+                                                                <i class="fas fa-chevron-right fa-2x"></i>
+                                                            </div>
+                                                            <div class="p-3 align-self-end white-dark-text">
+                                                                Gather business requirements and develop daily, weekly and periodic deep dive reporting for stores across UK and Ireland.
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <!-- Insight Analyst - bullet 1 dropdown - bullet 3-->
+                                                    <li>
+                                                        <div class="d-flex">
+                                                            <div class="p-3 align-self-center">
+                                                                <i class="fas fa-chevron-right fa-2x"></i>
+                                                            </div>
+                                                            <div class="p-3 align-self-end white-dark-text">
+                                                                Simplified and automated manual and semi-manual processes using Visual Basic Application (VBA) programming and advanced Excel capabilities, releasing business resources.
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <!-- Insight Analyst - bullet 1 dropdown - bullet 4-->
+                                                    <li>
+                                                        <div class="d-flex">
+                                                            <div class="p-3 align-self-center">
+                                                                <i class="fas fa-chevron-right fa-2x"></i>
+                                                            </div>
+                                                            <div class="p-3 align-self-end white-dark-text">
+                                                                Significantly reduced ‘request CPU’ usage for regular reporting, taking advantage of strategic querying, partitioning, indexing and OLAP functions of Teradata SQL.
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tableau -->
+        <section id="tableau-section" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col flex-fill text-center py-5">
+                        <h1 class="display-4 white-dark-text-head">Tableau</h1>
+                    </div>
+
+                    <p class="white-dark-text head-2-edu-tab">Tableau is my tool of choice for reporting and visualisations. In addition to my deliverables at work..</p>
+
+                    <!-- Tableau - bullet - 1 -->
+                    <div class="d-flex">
+                        <div class="p-4 align-self-center">
+                            <i class="fas fa-square fa-2x"></i>
+                        </div>
+                        <div class="p-4 align-self-end white-dark-text">
+                            I am actively engaging with the Tableau community and represented Tesco as the lead speaker in the first ever retail user group.
+                        </div>
+                        <a class="btn btn-success align-self-center" href="https://usergroups.tableau.com/retailmay2020" target="_blank">Visit the event page!</a>
+                    </div>
+                    
+                    <!-- Tableau - bullet - 2 -->
+                    <div class="d-flex">
+                        <div class="p-4 align-self-center">
+                            <i class="fas fa-square fa-2x"></i>
+                        </div>
+                        <div class="p-4 align-self-end white-dark-text">
+                            In my spare time I like to play with Tableau features and create visulisations, below are just some of the examples!
+                        </div>
+                    </div>
+
+                    <div id="tableau-slider" class="carousel slide mb-4" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <ol class="carousel-indicators">
+                                <li class="active" data-target="#tableau-slider" data-slide-to="0"></li>
+                                <li data-target="#tableau-slider" data-slide-to="1"></li>
+                                <li data-target="#tableau-slider" data-slide-to="2"></li>
+                            </ol>
+
+                            <div class="card tableau-card carousel-item active px-5 mx-4" style="width: 50rem;">
+                                <h5 class="card-title">Tableau Bio</h5>
+                                <div class="card-body">
+                                <p class="card-text">Learn more about Michail's journey in Tableau.</p>
+                                <img class="card-img-top pb-4 card-image-tableau" src="/images/cv_img.JPG" alt="Card image cap">
+                                <a class="btn btn-success d-block float-end mb-4" href="https://public.tableau.com/shared/WK8Z2HSNN?:display_count=y&:origin=viz_share_link" target="_blank">Visit the viz!</a>
+                                </div>
+                            </div>
+        
+                            <div class="card tableau-card carousel-item px-5 mx-4" style="width: 50rem;">
+                                <h5 class="card-title">Premier League</h5>
+                                <div class="card-body">
+                                <p class="card-text">Explore Premier League in this portofilio dashboard.</p>
+                                <img class="card-img-top pb-4 card-image-tableau" src="/images/Premier-league.JPG" alt="Card image cap">
+                                <a class="btn btn-success d-block float-end mb-4" href="https://public.tableau.com/views/PremierLeague_32/Premier?:display_count=y&:origin=viz_share_link" target="_blank">Visit the viz!</a>
+                                </div>
+                            </div>
+                            
+                            <div class="card tableau-card carousel-item px-5 mx-4" style="width: 50rem;">
+                                <h5 class="card-title">GDP By Country</h5>
+                                <div class="card-body">
+                                <p class="card-text">Explore GDP change by country in this portofilio dashboard.</p>
+                                <img class="card-img-top pb-4 card-image-tableau" src="/images/GDP.JPG" alt="Card image cap">
+                                <a class="btn btn-success d-block float-end mb-4" href="https://public.tableau.com/views/GDPbyCountry_15546673964760/GDP?:display_count=y&publish=yes&:origin=viz_share_link" target="_blank">Visit the viz!</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Carousel Controls -->
+                        <a href="#tableau-slider" class="carousel-control-prev"
+                        data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+
+                        <a href="#tableau-slider" class="carousel-control-next"
+                        data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    
+                    <!-- Tableau - bullet - 3 -->
+                    <div class="">
+                        <div class="d-flex">
+                            <div class="p-4 align-self-center">
+                                <i class="fas fa-square fa-2x"></i>
+                            </div>
+                            <div class="p-4 align-self-end white-dark-text">
+                                Have delivered few contracts in Upwork as a 5 star freelancer!
+                            </div>
+                            <a class="btn btn-success align-self-center" href="https://www.upwork.com/freelancers/~01198ef02d92c7e057" target="_blank">Visit Upwork Profile!</a>
+                        </div>
+
+                        <div class="d-flex upwork-cards">
+                            <div class="card p-4 mb-3" style="width: 25rem;">
+                                <h5 class="card-title">Tableau training <br> <i class="fas fa-star text-success"></i><i class="fas fa-star text-success"></i><i class="fas fa-star text-success"></i><i class="fas fa-star text-success"></i><i class="fas fa-star text-success"></i></h5>
+                                
+                                <div class="card-body">
+                                <p class="card-text"> Michail is very skillful. Great communication. He delivered to us working copies for our requests and then took the time to explain step by step how to reproduce the results ourselves. Will hire again.</p>
+                                </div>
+                            </div>
+
+                            <div class="card p-4 mb-3" style="width: 25rem;">
+                                <h5 class="card-title">Tableau Optimizations <br> <i class="fas fa-star text-success"></i><i class="fas fa-star text-success"></i><i class="fas fa-star text-success"></i><i class="fas fa-star text-success"></i><i class="fas fa-star text-success"></i></h5>
+                                
+                                <div class="card-body">
+                                <p class="card-text"> Second time I worked with Michail. <br><br> This time he helped us with optimizing large amount of data which slowed down our dashboards.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+        <footer id="main-footer" class="bg-dark">
+            <div class="contrainer">
+                <div class="row">
+                    <div class="col text-center py-4">
+                    <p>copyright&copy; <span id="year"></span></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Libraries -->
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+
+        <script>
+            // Get the current year for the copyright
+            $('#year').text(new Date().getFullYear());
+
+            // Init Scrollspy
+            $('body').scrollspy({ target: '#main-nav' });
+
+            // Smooth Scrolling
+            $("#main-nav a").on('click', function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+
+                const hash = this.hash;
+
+                $('html, body').animate({
+                scrollTop: $(hash).offset().top
+                }, 800, function () {
+
+                window.location.hash = hash;
+                });
+            }
+            });
+
+            $('.carousel').carousel ({
+                interval:5000,
+                keyboard: true,
+                pause: 'hover',
+                wrap: true
+            });
+        </script>
+    </body>
+
+</html>

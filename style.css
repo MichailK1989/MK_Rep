@@ -1,0 +1,174 @@
+/* NavBar */
+
+#main-nav {
+  height: 11%;
+}
+
+#resume-section .resume-text {
+  padding-top: 150px;
+}
+
+#logo-image{
+  height: 70px;
+}
+
+#navbarCollapse {
+  font-size: large;
+}
+
+/* Resume */
+
+#resume-section {
+  background: url(/images/resume.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 600px;
+  }
+
+@media only screen and (max-width: 750px) {
+  #resume-section {
+    background: url(/images/resume.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 850px;
+    }
+}
+
+
+#resume-section .dark-overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  min-height: 600px;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+/* Education & Tableau */
+
+#education-section,
+  #tableau-section {
+  background: #7395AE;
+}
+
+/* Professional Experience */
+#experience-section {
+  background: #C2CAD0;
+}
+
+/* Buttons */
+.btn {
+  background-color: #03396c;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 50px;
+}
+/* Cards */
+.card {
+  background-color: #c5cbe3;
+}
+
+/* card images for tableau */
+.tableau-card {
+  background-color: grey;
+}
+
+.tableau-card .card-title {
+  font-size: xx-large;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.tableau-card .card-body {
+  font-size: x-large;
+  font-family:'Times New Roman', Times, serif;
+  color: #fff;
+}
+
+.card-image-tableau {
+  height: 400px;
+}
+
+/* Carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+/* Upwork cards responsiveness */
+@media only screen and (max-width: 850px) {
+  .upwork-cards {
+    flex-direction: column;
+    }
+}
+
+/* Footer */
+#main-footer {
+  color: white;
+}
+
+
+/* Fonts */
+
+.dark-white-text {
+  color: aliceblue;
+  font-size: x-large;
+}
+
+.dark-white-text-head {
+  color: aliceblue;
+}
+
+.white-dark-text {
+  font-size: x-large;
+}
+
+.white-dark-text-head {
+  font-weight: bold;
+}
+
+.head-2-edu-tab {
+  font-size: xx-large;
+  color: #5d5c61;
+  font-weight: bold;
+}
+
+.head-2-exp {
+  font-size: xx-large;
+  color: #64485C;
+  font-weight: bold;
+}
+
+.period-text {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hilight-text {
+  font-size: xx-large;
+  color:#6f2232;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hilight-text-download {
+  font-size: xx-large;
+  color:#bab2b5;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.hilight-icon {
+  color: black;
+}
